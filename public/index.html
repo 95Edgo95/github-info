@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Info</title>
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body onload="initApp()">
+<div class="container">
+    <div class="nav-bar">
+        <div class="nav-item" id="users-nav">
+            Users
+        </div>
+        <div class="nav-item" id="repos-nav">
+            Repos
+        </div>
+    </div>
+    <div id="content">
+        <div id="hint">Select Page</div>
+    </div>
+</div>
+<script src="/js/helpers.js"></script>
+<script src="/js/templates/Pagination.js"></script>
+<script src="/js/templates/RepoRow.js"></script>
+<script src="/js/templates/ToolTip.js"></script>
+<script src="/js/templates/UserBlock.js"></script>
+<script src="/js/pages/Users.js"></script>
+<script src="/js/pages/Repos.js"></script>
+<script src="/js/pages/UserDetails.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
